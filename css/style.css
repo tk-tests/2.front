@@ -1,0 +1,83 @@
+
+.cms-block-content{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url('../images/bg-mobile.jpg');
+    position: relative;
+	padding-bottom: 100%;
+	background-repeat: no-repeat;
+	background-position: center 100%;
+	background-size: auto 100%;
+	border: 1px solid transparent
+}
+.cms-block-content h2{
+	float: left;
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+	margin: 0;
+
+}
+.cms-block-content ul{
+    max-width: 170px;
+    width: 40%;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    bottom: 25px;
+    left: 30%;
+    margin: auto;
+    right: 30%;
+}
+.cms-block-content ul li{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.cms-block-content ul li a{
+	text-align: center;
+	 font-family: sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	font-size: 16px;
+	padding: 10px 0 ;
+	box-sizing: border-box;
+	width: 100%;
+	color: #ffffff;
+	border: 1px solid #fff;
+
+}
+@media  (min-width: 767px ){
+	.cms-block-content{
+		background-image: url('../images/bg-desktop.jpg');
+		background-size: 100% auto;
+		padding-bottom: 50%;
+		
+		
+	}
+	.cms-block-content ul{
+		max-width: 300px;
+		background-color: #fff;
+		padding: 10px 0;
+		bottom: 50%;
+		margin-bottom: -40px;
+	}
+	.cms-block-content ul li{
+		    margin: 3px 0;
+	}
+	.cms-block-content ul li a{
+		padding: 5px 0 5px;
+		color: #000;
+		border: none;
+		border: none;
+	    font-family: sans-serif;
+	    font-weight: normal;
+
+	}
+}

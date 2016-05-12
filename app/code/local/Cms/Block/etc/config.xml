@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Cms_Block>
+      <version>0.1.0</version>
+    </Cms_Block>
+  </modules>
+  <global>
+    <helpers>
+      <block>
+        <class>Cms_Block_Helper</class>
+      </block>
+    </helpers>
+	<resources>
+	  <block_setup>
+		<setup>
+		  <module>Cms_Block</module>
+		</setup>
+		<connection>
+		  <use>core_setup</use>
+		</connection>
+	  </block_setup>
+	  <block_write>
+		<connection>
+		  <use>core_write</use>
+		</connection>
+	  </block_write>
+	  <block_read>
+		<connection>
+		  <use>core_read</use>
+		</connection>
+	  </block_read>
+	</resources>
+  </global>
+</config> 
